@@ -1,0 +1,24 @@
+{
+  "full_corpus_10000": {
+    "n_instances": 10000,
+    "n_no_flagged_claims": 2728,
+    "n_would_be_excluded": 7272,
+    "exclusion_discard_rate": 0.7272,
+    "sentence_removal_survives": 7255,
+    "sentence_removal_still_empty": 17,
+    "sentence_removal_recovery_rate": 0.9976622662266227,
+    "avg_sentences_before": 4.3904015401540155,
+    "avg_sentences_after": 2.878987898789879
+  },
+  "human_verified_68": {
+    "n_instances": 68,
+    "n_no_flagged_claims": 18,
+    "n_would_be_excluded": 50,
+    "exclusion_discard_rate": 0.7352941176470589,
+    "sentence_removal_survives": 50,
+    "sentence_removal_still_empty": 0,
+    "sentence_removal_recovery_rate": 1.0,
+    "avg_sentences_before": 4.46,
+    "avg_sentences_after": 3.2
+  }
+}

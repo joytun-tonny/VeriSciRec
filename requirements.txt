@@ -1,0 +1,34 @@
+# Experiments were run on Kaggle notebooks (Python 3.12, GPU accelerator).
+# Notebooks install missing packages on the fly; this file lists them for local setup.
+# Versions are intentionally unpinned except where the paper reports a version.
+
+# Core
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+requests
+matplotlib
+seaborn
+
+# Retrieval / embeddings
+sentence-transformers
+rank-bm25
+chromadb
+implicit
+
+# Models, NLI baselines, fine-tuning
+torch
+transformers
+datasets
+peft
+trl
+bitsandbytes
+minicheck @ git+https://github.com/Liyan06/MiniCheck.git@main
+
+# Agents / LLM access (OpenRouter is used through the OpenAI-compatible client)
+openai
+langgraph==0.2.*
+ragas
+tavily-python

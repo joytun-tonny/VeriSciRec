@@ -1,0 +1,19 @@
+{
+  "mean_cohen_kappa": 0.798,
+  "pairwise_kappa": {
+    "annotator_A|annotator_B": 0.841,
+    "annotator_A|annotator_C": 0.734,
+    "annotator_B|annotator_C": 0.818
+  },
+  "krippendorff_alpha": 0.797,
+  "n_claims": 303,
+  "n_instances": 68,
+  "n_instances_sampled": 500,
+  "synthetic": false,
+  "type": {
+    "mean_cohen_kappa": 0.553,
+    "krippendorff_alpha": 0.547,
+    "relational_binary_kappa": 0.575,
+    "n_claims": 303
+  }
+}

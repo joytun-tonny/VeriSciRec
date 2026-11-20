@@ -1,0 +1,6 @@
+{
+  "support_threshold": 0.5,
+  "unsupport_threshold": 0.1,
+  "kappa_vs_human": 0.022,
+  "n_claims": 251
+}

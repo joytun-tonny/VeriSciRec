@@ -1,0 +1,77 @@
+{
+  "overall_summary": {
+    "remove_direct_edge": {
+      "category": "breaking",
+      "n_scored": 3158,
+      "n_total_trials": 11127,
+      "flip_rate": 0.116846105129829
+    },
+    "reverse_direction": {
+      "category": "breaking",
+      "n_scored": 3158,
+      "n_total_trials": 11127,
+      "flip_rate": 0.02089930335655478
+    },
+    "publication_order": {
+      "category": "breaking",
+      "n_scored": 3158,
+      "n_total_trials": 11127,
+      "flip_rate": 0.0512982900569981
+    },
+    "relation_label_swap": {
+      "category": "breaking",
+      "n_scored": 3158,
+      "n_total_trials": 11127,
+      "flip_rate": 0.6399620012666244
+    },
+    "corrupt_edges_30pct": {
+      "category": "descriptive",
+      "n_scored": 11127,
+      "n_total_trials": 11127,
+      "flip_rate": 0.05284443246157994
+    },
+    "unrelated_noise_control": {
+      "category": "stability",
+      "n_scored": 11127,
+      "n_total_trials": 11127,
+      "flip_rate": 0.0
+    }
+  },
+  "by_relation_category": {
+    "remove_direct_edge__non_dependency": {
+      "n": 2812,
+      "flip_rate": 0.008179231863442389
+    },
+    "reverse_direction__non_dependency": {
+      "n": 2812,
+      "flip_rate": 0.0
+    },
+    "publication_order__non_dependency": {
+      "n": 2812,
+      "flip_rate": 0.0
+    },
+    "relation_label_swap__non_dependency": {
+      "n": 2812,
+      "flip_rate": 0.718705547652916
+    },
+    "remove_direct_edge__dependency": {
+      "n": 346,
+      "flip_rate": 1.0
+    },
+    "reverse_direction__dependency": {
+      "n": 346,
+      "flip_rate": 0.1907514450867052
+    },
+    "publication_order__dependency": {
+      "n": 346,
+      "flip_rate": 0.4682080924855491
+    },
+    "relation_label_swap__dependency": {
+      "n": 346,
+      "flip_rate": 0.0
+    }
+  },
+  "n_claims": 11517,
+  "n_trials": 66762,
+  "key_finding": "The rule-based verifier is structurally direction-insensitive: reversing the citation edge for an originally-supported dependency-relation claim flips the verdict only 19.1% of the time (0% for compares/shares_topic), because the decision rule accepts a citation link in EITHER direction as support (Eq. 14: c_BA=1 alone suffices). This means the current verifier cannot detect a claim that gets the citation DIRECTION backwards (e.g. \"A builds on B\" when actually \"B builds on A\") as long as some edge connects them -- a real, previously unstated limitation that directly motivates direction-reversal hard negatives (item 4) and a learned verifier with an explicit direction-aware feature (item 1)."
+}

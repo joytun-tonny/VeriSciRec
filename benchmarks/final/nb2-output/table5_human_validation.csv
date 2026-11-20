@@ -1,0 +1,4 @@
+domain,instances,verified_claims,auto==human (%),human_unsupported (%)
+acl_anthology,26,113,26.5,31.0
+arxiv_cs,19,88,25.0,28.4
+pubmed,23,102,31.4,20.6

@@ -1,0 +1,75 @@
+{
+  "eval_n_users": 500,
+  "n_qualifying_users": 14861,
+  "min_interactions": 5,
+  "als_factors": 64,
+  "als_iterations": 15,
+  "results": {
+    "Popularity": {
+      "NDCG@5": 0.0,
+      "Recall@5": 0.0,
+      "NDCG@10": 0.0,
+      "Recall@10": 0.0,
+      "NDCG@20": 0.0009,
+      "Recall@20": 0.004,
+      "MRR": 0.0004,
+      "ILD": 0.1349,
+      "Novelty": 11.9648
+    },
+    "BM25": {
+      "NDCG@5": 0.0166,
+      "Recall@5": 0.024,
+      "NDCG@10": 0.0192,
+      "Recall@10": 0.032,
+      "NDCG@20": 0.0207,
+      "Recall@20": 0.038,
+      "MRR": 0.0163,
+      "ILD": 0.1304,
+      "Novelty": 16.8975
+    },
+    "Collaborative filtering": {
+      "NDCG@5": 0.001,
+      "Recall@5": 0.002,
+      "NDCG@10": 0.0029,
+      "Recall@10": 0.008,
+      "NDCG@20": 0.0043,
+      "Recall@20": 0.014,
+      "MRR": 0.0029,
+      "ILD": 0.1427,
+      "Novelty": 14.4238
+    },
+    "Graph-based collaborative filtering": {
+      "NDCG@5": 0.0008,
+      "Recall@5": 0.002,
+      "NDCG@10": 0.0008,
+      "Recall@10": 0.002,
+      "NDCG@20": 0.0037,
+      "Recall@20": 0.014,
+      "MRR": 0.0021,
+      "ILD": 0.144,
+      "Novelty": 14.421
+    },
+    "Dense retrieval only": {
+      "NDCG@5": 0.014,
+      "Recall@5": 0.022,
+      "NDCG@10": 0.0179,
+      "Recall@10": 0.034,
+      "NDCG@20": 0.023,
+      "Recall@20": 0.054,
+      "MRR": 0.0153,
+      "ILD": 0.0992,
+      "Novelty": 17.1944
+    },
+    "Our pipeline": {
+      "NDCG@5": 0.0066,
+      "Recall@5": 0.01,
+      "NDCG@10": 0.0066,
+      "Recall@10": 0.01,
+      "NDCG@20": 0.0077,
+      "Recall@20": 0.014,
+      "MRR": 0.0063,
+      "ILD": 0.15,
+      "Novelty": 16.7471
+    }
+  }
+}

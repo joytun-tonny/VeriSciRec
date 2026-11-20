@@ -1,0 +1,78 @@
+{
+  "n_instances": 68,
+  "summary_pre_exclusion": {
+    "a": {
+      "verdict_counts": {
+        "supported": 343,
+        "unsupported": 322,
+        "unverifiable": 225
+      },
+      "adjudicable": 665,
+      "relational_hallucination_rate": 0.4842105263157895
+    },
+    "b": {
+      "verdict_counts": {
+        "supported": 344,
+        "unsupported": 322,
+        "unverifiable": 227
+      },
+      "adjudicable": 666,
+      "relational_hallucination_rate": 0.48348348348348347
+    },
+    "c": {
+      "verdict_counts": {
+        "supported": 382,
+        "unverifiable": 310,
+        "unsupported": 203
+      },
+      "adjudicable": 585,
+      "relational_hallucination_rate": 0.347008547008547
+    }
+  },
+  "summary_post_exclusion": {
+    "a": {
+      "verdict_counts": {
+        "supported": 343,
+        "unsupported": 322,
+        "unverifiable": 225
+      },
+      "adjudicable": 665,
+      "relational_hallucination_rate": 0.4842105263157895
+    },
+    "b": {
+      "verdict_counts": {
+        "supported": 344,
+        "unsupported": 322,
+        "unverifiable": 227
+      },
+      "adjudicable": 666,
+      "relational_hallucination_rate": 0.48348348348348347
+    },
+    "c": {
+      "verdict_counts": {
+        "supported": 323,
+        "unverifiable": 276
+      },
+      "adjudicable": 323,
+      "relational_hallucination_rate": 0.0
+    }
+  },
+  "yield_stats": {
+    "a": {
+      "avg_final_recs": 10.0,
+      "n_zero_rec_instances": 0,
+      "n_instances": 68
+    },
+    "b": {
+      "avg_final_recs": 10.0,
+      "n_zero_rec_instances": 0,
+      "n_instances": 68
+    },
+    "c": {
+      "avg_final_recs": 7.661764705882353,
+      "n_zero_rec_instances": 2,
+      "n_instances": 68
+    }
+  },
+  "run_llm_gen": true
+}

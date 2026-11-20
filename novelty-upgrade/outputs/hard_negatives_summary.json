@@ -1,0 +1,32 @@
+{
+  "direction_reversal": {
+    "n": 678,
+    "caught_by_current_verifier": 353,
+    "fooled_rate": 0.4793510324483776
+  },
+  "relation_substitution": {
+    "n": 3670,
+    "caught_by_current_verifier": 2246,
+    "fooled_rate": 0.38801089918256126
+  },
+  "shared_refs_no_dependency": {
+    "n": 3527,
+    "caught_by_current_verifier": 3527,
+    "fooled_rate": 0.0
+  },
+  "temporally_impossible": {
+    "n": 1493,
+    "caught_by_current_verifier": 1427,
+    "fooled_rate": 0.04420629604822501
+  },
+  "topically_similar_swap": {
+    "n": 11325,
+    "caught_by_current_verifier": 6193,
+    "fooled_rate": 0.4531567328918322
+  },
+  "same_author_swap": {
+    "n": 725,
+    "caught_by_current_verifier": 165,
+    "fooled_rate": 0.7724137931034483
+  }
+}

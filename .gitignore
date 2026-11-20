@@ -1,0 +1,86 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Private / not for release
+# ─────────────────────────────────────────────────────────────────────────────
+# manuscript, submission PDFs, planning notes, third-party papers
+_private/
+# manuscript LaTeX + journal templates (paper is under review)
+artifacts/
+.claude/
+# built by scripts/make_release.sh, uploaded as a GitHub Release
+release/
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Large data (> GitHub limits) — distributed separately, see DATA.md
+# ─────────────────────────────────────────────────────────────────────────────
+data/*
+!data/README.md
+embeddings/*
+!embeddings/README.md
+
+# Benchmark JSONL files and caches (released as compressed GitHub Release assets)
+benchmarks/final/after_diagnosis/
+benchmarks/final/relational/*.jsonl
+benchmarks/final/relational/citecheck_refs_cache.json
+benchmarks/final/relational/rationales_checkpoint_*.json
+benchmarks/final/nb2-output/*.jsonl
+# ...except the small expert-verified gold subset, which ships with the repo
+!benchmarks/final/nb2-output/scireqa_human_verified_subset.jsonl
+
+# Stale intermediate / backup files
+*_BACKUP.*
+*_OLD.*
+*.bak
+*.bak-*
+*_backup.*
+
+# Large derived artefacts that notebooks regenerate
+notebooks/outputs/bm25_index.pkl
+notebooks/outputs/user_profiles.json
+notebooks/outputs/graph_scores.json
+notebooks/outputs/citecheck_refs_cache.json
+notebooks/outputs/preference_pairs.jsonl
+novelty-upgrade/outputs/*.jsonl
+novelty-upgrade/cache/
+novelty-upgrade/data/
+outputs/chroma_db/
+*.pkl
+*.npy
+*.bin
+*.faiss
+*.gpickle
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Model / tool caches
+# ─────────────────────────────────────────────────────────────────────────────
+.hf_cache/
+.cache/
+wandb/
+mlruns/
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Python / Jupyter / OS
+# ─────────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.egg-info/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# LaTeX build files (in case a paper/ folder is added later)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex*
